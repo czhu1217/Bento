@@ -2,12 +2,6 @@
 const today = new Date();
 const hour = today.getHours();
 
-if(hour>=20&&hour<5){
-  enableDark();
-}
-else{
-  disableDark();
-}
 // Store the theme
 let darkTheme = localStorage.getItem("darkTheme");
 const themeToggle = document.querySelector("#themeButton");
